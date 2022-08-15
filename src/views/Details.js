@@ -12,9 +12,7 @@ export default function Details() {
 
   useEffect(() => {
     dispatch(getDetailsContact(params.id))
-  
-  }, [])
-  
+  }, [dispatch, params.id])
 
   return (
     <>

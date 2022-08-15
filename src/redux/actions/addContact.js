@@ -5,7 +5,7 @@ import getAllContact from "./getAllContact";
 const addContact = ({ user }) => {
   return function (dispatch) {
     axios({
-      url: "http://localhost:4000/contacts",
+      url: `${process.env.REACT_APP_API_HOST}/contacts`,
       method: "post",
       data: {
         name: user.name,

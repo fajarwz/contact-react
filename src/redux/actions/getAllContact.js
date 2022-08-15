@@ -5,7 +5,7 @@ const getAllContact = () => {
   return function (dispatch) {
     dispatch({ type: "LOADING", payload: true });
     axios({
-      url: "http://localhost:4000/contacts",
+      url: `${process.env.REACT_APP_API_HOST}/contacts`,
       method: "get",
     })
     .then(({ data }) => {

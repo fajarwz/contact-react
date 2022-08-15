@@ -5,7 +5,7 @@ import getAllContact from "./getAllContact";
 const deleteContact = (id, name) => {
   return function (dispatch) {
     axios({
-      url: `http://localhost:4000/contacts/${id}`,
+      url: `${process.env.REACT_APP_API_HOST}/contacts/${id}`,
       method: "delete",
     })
       .then(() => {

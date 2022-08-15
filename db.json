@@ -15,13 +15,6 @@
       "id": 3
     },
     {
-      "name": "Dudung",
-      "email": "dudung@gmail.com",
-      "phoneNumber": "085912341234",
-      "category": "work",
-      "id": 5
-    },
-    {
       "name": "Beben",
       "email": "beben@test.com",
       "phoneNumber": "085912331233",
@@ -41,6 +34,27 @@
       "phoneNumber": "085912331238",
       "category": "work",
       "id": 12
+    },
+    {
+      "name": "Endang",
+      "email": "endang@test.com",
+      "phoneNumber": "085912331299",
+      "category": "family",
+      "id": 13
+    },
+    {
+      "name": "Tuti",
+      "email": "tuti@test.com",
+      "phoneNumber": "085912331111",
+      "category": "friend",
+      "id": 14
+    },
+    {
+      "name": "Ujang",
+      "email": "ujang@test.com",
+      "phoneNumber": "085912231235",
+      "category": "family",
+      "id": 15
     }
   ]
 }
