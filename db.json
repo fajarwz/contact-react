@@ -1,0 +1,46 @@
+{
+  "contacts": [
+    {
+      "name": "Fajar W Zulfikar",
+      "email": "fajarwz@gmail.com",
+      "phoneNumber": "085912341234",
+      "category": "family",
+      "id": 1
+    },
+    {
+      "name": "Ferry X",
+      "email": "ferry.x@gmail.com",
+      "phoneNumber": "08591233322",
+      "category": "work",
+      "id": 3
+    },
+    {
+      "name": "Dudung",
+      "email": "dudung@gmail.com",
+      "phoneNumber": "085912341234",
+      "category": "work",
+      "id": 5
+    },
+    {
+      "name": "Beben",
+      "email": "beben@test.com",
+      "phoneNumber": "085912331233",
+      "category": "friend",
+      "id": 6
+    },
+    {
+      "name": "Titin",
+      "email": "titin@test.com",
+      "phoneNumber": "085912331239",
+      "category": "work",
+      "id": 11
+    },
+    {
+      "name": "Dadang Z",
+      "email": "dadang.z@gmail.com",
+      "phoneNumber": "085912331238",
+      "category": "work",
+      "id": 12
+    }
+  ]
+}
